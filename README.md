@@ -30,6 +30,7 @@ printer.printImage("This is some text");
 - *options* - Any options to override the defaults
 
 **options**
+
 | Key             | Value                                          | Default |
 |-----------------|------------------------------------------------|---------|
 | file            | The file name to save. Mainly temporary        | tmp.pdf |
@@ -40,6 +41,7 @@ printer.printImage("This is some text");
 | fontSize        | The default font size for text                 | 36      |
 | cutPage         | Whether to cut the page each time              | false   |
 | cutDocument     | Whether to cut the document                    | true    |
+
 
 **printText**
 - *text* The text to print
