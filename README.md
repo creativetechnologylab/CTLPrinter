@@ -57,22 +57,27 @@ printer.printImage("This is some text");
 | cutDocument     | Whether to cut the document                    | true    |
 
 
-**printText**
+**printText(String text, Object options)**
 - *text* The text to print
 - *options* (Optional) Override options temporarily
 - *@returns Promise*
 
-**printImage**
+**printImage(String image, Object options)**
 - *image* The image to print
 - *options* (Optional) Override options temporarily
 - *@returns Promise*
 
-**printCustom**
+**printCustom(Function drawFunction, Object options)**
 - *drawFunction* A function that allows you to add custom PDFKit code, for full custimation
 - *options* (Optional) Override options temporarily
 - *@returns Promise*
 
 *drawFunction* Is a function that gives you `(doc, width, height)` to work with
+
+**printFile(String file, Object options)**
+- *file* The file to print
+- *options* (Optional) Override options temporarily
+- *@returns Promise*
 
 
 ## Good-to-knows
