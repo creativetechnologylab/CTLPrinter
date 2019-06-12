@@ -8,6 +8,18 @@ The module currently works as a node script for MacOS. You need to just install 
 
 For this module to work, you need to install PDFKit: `npm install pdfkit`
 
+You also need to install the drivers necessary if using a USB printer. See the **Drivers** section
+
+## Drivers
+
+### Mac OS
+
+Install the .pkg file found in /Drivers/MacOS
+
+### Raspberry Pi
+
+Download the zip folder found in /Drivers/RaspberryPi
+
 ## Usage
 
 This example is a bare minimum to print some text to the printer.
