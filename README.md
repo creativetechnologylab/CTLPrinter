@@ -14,11 +14,15 @@ You also need to install the drivers necessary if using a USB printer. See the *
 
 ### Mac OS
 
-Install the .pkg file found in /Drivers/MacOS
+Install the .pkg file found in `/Drivers/MacOS`
 
 ### Raspberry Pi
 
-Download the zip folder found in /Drivers/RaspberryPi
+From terminal, open the folder `/Drivers/RaspberryPi` and then run `sudo ./install.sh`
+
+After this completes, go to `localhost:631/admin/` in chromium and add the printer that resembles something like **Star TSP143...**
+
+Choose the model `Star TSP100 Cutter` when prompted and then set default media size to something like `72x200mm`
 
 ## Usage
 
