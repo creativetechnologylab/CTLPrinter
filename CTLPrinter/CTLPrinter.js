@@ -128,6 +128,13 @@ class CTLPrinter {
         });
     }
 
+    printFile(file, options = {}) {
+        return new Promise((resolve, reject) => {
+            const _opts = this._mergeOptions(this.options, options);
+            this._sendFile(file, _opts, resolve);
+        });
+    }
+
     _getDocument({ width, height, margins }) {
         return new PDFDocument({
             size: [ width, height ],
