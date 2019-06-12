@@ -2,8 +2,6 @@
 
 A simple starter example/module for using the Star TSP100 FuturePRNT thermal printers that are currently stocked in the CTL.
 
-The module currently works as a node script for MacOS. You need to just install the driver which you can find here: <http://www.starmicronics.com/support/default.aspx?printerCode=futurePRNT>
-
 ## Installation
 
 For this module to work, you need to install PDFKit: `npm install pdfkit`
