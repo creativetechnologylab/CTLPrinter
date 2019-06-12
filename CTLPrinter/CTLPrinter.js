@@ -14,8 +14,8 @@ class CTLPrinter {
         this.defaults = {
             file: TMP_DOC,
             printerName,
-            width: 612.0,
-            height: 792.0,
+            width: 204.0,
+            height: 567.0,
             margins: 0,
             deleteGenerated: true,
             fontSize: 36,
