@@ -4,7 +4,7 @@ A simple starter example/module for using the Star TSP100 FuturePRNT thermal pri
 
 ## Installation
 
-For this module to work, you need to install PDFKit: `npm install pdfkit`
+For this module to work, you need to install dependencies: `npm install`
 
 You also need to install the drivers necessary if using a USB printer. See the **Drivers** section
 
